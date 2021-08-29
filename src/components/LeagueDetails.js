@@ -24,7 +24,6 @@ import YouTubeIcon from '../../src/images/icon/YouTube.png';
 const LeagueDetails = () => {
 	const [league, setLeague] = useState({});
 	const [loading, setLoading] = useState(true);
-	const [socialLink, setSocialLink] = useState(null);
 
 	const { id } = useParams();
 
